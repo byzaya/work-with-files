@@ -42,9 +42,7 @@ public class FileStatusServiceTest {
         Long fileId = 1L;
         String newStatus = "новый статус";
         when(fileRepository.findById(fileId)).thenReturn(Optional.empty());
-        assertThrows(NoSuchElementException.class, () -> {
-            fileStatusService.setStatus(fileId, newStatus);
-        });
+        assertThrows(NoSuchElementException.class, () -> fileStatusService.setStatus(fileId, newStatus));
         verify(fileRepository, never()).save(any(File.class));
     }
 }
