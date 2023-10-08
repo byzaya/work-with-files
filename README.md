@@ -6,7 +6,7 @@
 (стр. 79-84)  
 ![Squote1.png](screenshotsFromBook%2FSquote1.png) 
 ![Squote2.png](screenshotsFromBook%2FSquote2.png)
-![Squote3.png](screenshotsFromBook%2FSQuote3.png)
+![Squote3.png](screenshotsFromBook%2FSquote3.png)
 **O** - Принцип открытости/закрытости (open-closed principle)  
 (стр. 86-90)   
 ![Oquote1.png](screenshotsFromBook%2FOquote1.png)
