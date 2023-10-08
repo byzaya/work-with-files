@@ -28,8 +28,8 @@ public class FileWriteServiceTest {
 
     @Test
     void testWrite() {
-        String name = "TestFile";
-        String status = "InProgress";
+        String name = "nameOfFile.docx";
+        String status = "В процессе";
         Date lastUpdate = new Date(System.currentTimeMillis());
         File expectedFile = new File(1L, name, status, lastUpdate);
 
